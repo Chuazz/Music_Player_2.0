@@ -1,0 +1,5 @@
+@media (max-width: 949px){
+    .song__content{
+        flex-basis: 100%;
+    }
+}
