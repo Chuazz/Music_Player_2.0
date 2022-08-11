@@ -307,10 +307,6 @@ const myApp = {
         var mostlyPlay = e.target.closest(".most-play");
         var liked = e.target.closest(".like-song");
         var deleteLocal = e.target.closest(".delete");
-
-        if(updateSong){
-            window.open("../../assets/html/add-form/update-song.html", "_blank");
-        }
         
         if(myVar.$(".play-with__item.active")){
             myVar.$(".play-with__item.active").classList.remove("active")
